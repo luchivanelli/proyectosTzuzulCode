@@ -1,20 +1,30 @@
 const express = require("express")
+const database = require("../libs/database")
 
 const router = express.Router()
 
 
 router.get("/users",function(req,res){
-    res.json({
-        ruta:"users"
+    database.connection.query("SELECT * FROM users",function(error,result,fields){
+        if(error!=null){
+
+            return res.json({
+                message:error.sqlMessage
+            })
+        }
+        
+        return res.json(result)
     })
+    
 })
+   
 router.get("/login",function(req,res){
-    res.json({
+    return res.json({
         ruta:"login"
     })
 })
 router.get("/registro",function(req,res){
-    res.json({
+    return res.json({
         ruta:"registro"
     })
 })
