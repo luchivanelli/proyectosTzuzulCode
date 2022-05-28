@@ -12,6 +12,7 @@ correctButton4 = document.querySelector(".button-12")
 correctButton5 = document.querySelector(".button-14")
 
 counter = 0;
+counter2 = 0;
 
 redButton.addEventListener('click', ()=> {
     colorContainer.style.border = "4px solid red";
@@ -33,25 +34,31 @@ greenButton.addEventListener('click', ()=> {
 
 correctButton1.addEventListener("click", ()=> {
     counter += 20;
+    counter2 +=1;
 })
 
 correctButton2.addEventListener("click", ()=> {
     counter += 20;
+    counter2 +=1;
 })
 
 correctButton3.addEventListener("click", ()=> {
     counter += 20;
+    counter2 +=1;
 })
 
 correctButton4.addEventListener("click", ()=> {
     counter += 20;
+    counter2 +=1;
 })
 
 correctButton5.addEventListener("click", ()=> {
     counter += 20;
+    counter2 +=1;
 })
 
 finishButton.addEventListener('click', ()=> {
+    alert(`Resolvió correctamente ${counter2} acertijos`)
     alert(`Su puntaje total es de: ${counter} puntos`);
 })
 
