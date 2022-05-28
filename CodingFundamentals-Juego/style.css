@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: #004643;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title {
+    font-size: 36px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #e16162;
+    padding: 30px 60px;
+}
+
+.color-container {
+    margin: auto;
+    width: 80%;
+    background-color: #eff0f3;
+    border: 4px solid black;
+}
+
+.color-title {
+    font-size: 26px;
+    text-align: center;
+    padding: 30px 0;
+    letter-spacing: 2px;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+}
+
+.color-box {
+    padding: 0 100px;
+}
+
+.red, .blue, .green {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red-button, .blue-button, .green-button {
+    display: block;
+    margin: 30px auto 60px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.red-button {
+    color: red;
+}
+
+.blue-button {
+    color: blue;
+}
+
+.green-button {
+    color: green;
+}
+
+.main-container {
+    width: 80%;
+    background-color: #abd1c6;
+    text-align: center;
+    margin: 80px auto;
+    padding: 50px 0;
+    border: 4px solid black;
+}
+
+.form-title {
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 20px;
+    text-align: center;
+    color: #eff0f3;
+}
+
+.puzzle h5 {
+    background-color: #eff0f3;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.puzzle {
+    padding: 20px;
+}
+
+.introduction {
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+label {
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.option-button {
+    width: 20px;
+    height: 20px;
+    background-color: #004643;
+}
+
+.option-button:hover {
+    background-color: #039891;
+    width: 22px;
+    height: 22px;
+}
+
+.finish-button {
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+}
