@@ -58,7 +58,7 @@ correctButton5.addEventListener("click", ()=> {
 })
 
 finishButton.addEventListener('click', ()=> {
-    alert(`Resolvió correctamente ${counter2} acertijos`)
+    alert(`Resolvió correctamente ${counter2} acertijo/s`)
     alert(`Su puntaje total es de: ${counter} puntos`);
 })
 
